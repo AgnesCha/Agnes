@@ -1,0 +1,102 @@
+        body {
+            margin: 0;
+            font-family: "Helvetica Neue", Arial, "Heiti TC", "LiHei Pro", "新細明體", "Microsoft Jhenghei", sans-serif;
+            
+        }
+        a {
+            text-decoration: none;
+            color: #888073
+        }
+        a:hover {
+            text-decoration: none;
+            color: #1E8282
+        }
+        #container {
+            width: 1000px;
+            margin: auto;
+            background: #FFF
+        }
+        #header {
+            border: 0;
+            background: url(../images/head.jpg) no-repeat;
+            height: 100px;
+        }
+        #login_wrapper {
+            padding: 35px 100px 27px 100px;
+            background: #FFF;
+            background-position: 100px 35px;
+            width: 800px;
+            height: 300px;
+        }
+        #content {
+            width: 800px;
+            color: #88816F;
+            margin: 0 0;
+            padding: 44px 77px 46px 70px;
+            background: url(../images/login_1.jpg) no-repeat;
+            height: 212px;
+            font-size: 15px
+        }
+        #contenttext {
+            width: 600px;
+            color: #88816F;
+            margin: 0 0;
+            padding: 44px 77px 46px 70px;
+            background: url(../images/login_1.jpg) no-repeat;
+            height: 212px;
+            font-size: 15px
+        }
+        #footer {
+            width: 982px;
+            clear: both;
+            height: 105px;
+            margin: 0 9px;
+            background: #EEEEEE;
+        }
+        #footer_inner {
+            padding: 5px 380px 10px 340px;
+        }
+        .sysown {
+            font-family: Verdana, Geneva, sans-serif;
+            width: 981px;
+            font-size: 0.78em;
+            margin-left: 9px;
+            color: #999;
+            padding: 8px 0 8px 0;
+            text-align: center;
+            border-top: 1px solid #CCC;
+            background-color: #FFF;
+        }
+        .button2 {
+            width: 84px;
+            height: 24px;
+            font-size: 12px;
+            float: right;
+            margin-left: 23px;
+            margin-right: 200px;
+            font-size: 15px
+        }
+        .button2 a {
+            width: 84px;
+            background: url(../images/btn_login.jpg) no-repeat;
+            color: #838182;
+            height: 27px !important;
+            text-decoration: none;
+            line-height: 27px;
+            display: block;
+            text-align: center
+        }
+        .button2 a:hover {
+            text-decoration: none;
+            background: #1E8282;
+            color: #fff
+        }
+        #aaa {
+            border-top: 1px dashed #cccccc;
+            overflow: hidden;
+            margin-top: -180px;
+            width: 667px;
+            margin-left: 69px;
+            font-size: 15px;
+            z-index: 99;
+        }

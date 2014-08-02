@@ -1,0 +1,360 @@
+/*--- 新手上路 --*/
+
+.tutorials_div {
+display: inline-block;
+padding: 10px 30px 30px 30px;
+margin: 15px 0px 15px 0px;
+background-color: white;
+border: 1px solid #e5e5e5;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+#myScrollspy {
+width: 240px;
+margin-top: -20px;
+margin-left: 40px;
+}
+
+.bs-docs-sidenav.affix {
+top: 25px;
+width: 240px;
+}
+
+.affix {
+position: fixed;
+}
+
+.nav-list {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.nav-list {
+padding-right: 15px;
+padding-left: 15px;
+margin-bottom: 0;
+}
+
+.nav {
+margin-bottom: 20px;
+margin-left: 0;
+list-style: none;
+}
+
+li {
+list-style-type: none;
+line-height: 20px;
+background:#FFF;
+}
+
+li a { text-decoration:none ;}	
+
+	
+
+.nav-list>.active>a, .nav-list>.active>a:hover, .nav-list>.active>a:focus {
+color: #fff;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+background-color: #11B0B3;
+}
+
+.bs-docs-sidenav > li > a {
+display: block;
+width: 190px \9;
+margin: 0 0 -1px;
+padding: 12px 14px;
+border: 1px solid #e5e5e5;
+font-family: "Helvetica Neue", "Hiragino Sans GB", "Hiragino Kaku Gothic Pro", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "Arial", sans-serif;
+font-size: 20px;
+}
+
+.nav-list>li>a, .nav-list .nav-header {
+margin-right: -15px;
+margin-left: -15px;
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+
+
+/*.icon-white, .nav-pills>.active>a>[class^="icon-"], .nav-pills>.active>a>[class*=" icon-"], .nav-list>.active>a>[class^="icon-"], .nav-list>.active>a>[class*=" icon-"], .navbar-inverse .nav>.active>a>[class^="icon-"], .navbar-inverse .nav>.active>a>[class*=" icon-"], .dropdown-menu>li>a:hover>[class^="icon-"], .dropdown-menu>li>a:focus>[class^="icon-"], .dropdown-menu>li>a:hover>[class*=" icon-"], .dropdown-menu>li>a:focus>[class*=" icon-"], .dropdown-menu>.active>a>[class^="icon-"], .dropdown-menu>.active>a>[class*=" icon-"], .dropdown-submenu:hover>a>[class^="icon-"], .dropdown-submenu:focus>a>[class^="icon-"], .dropdown-submenu:hover>a>[class*=" icon-"], .dropdown-submenu:focus>a>[class*=" icon-"] {
+background-image: url("../img/glyphicons-halflings-white.png");
+}
+
+.bs-docs-sidenav .active .icon-chevron-right, .bs-docs-sidenav .active a:hover .icon-chevron-right {
+background-image: url(/static/img/glyphicons-halflings-white.png);
+opacity: 1;
+}*/
+
+.bs-docs-sidenav .icon-chevron-right {
+float: right;
+margin-top: 2px;
+margin-right: -6px;
+opacity: .25;
+}
+
+.icon-chevron-right {
+background-position: -456px -72px;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+display: inline-block;
+width: 14px;
+height: 14px;
+margin-top: 1px;
+line-height: 14px;
+vertical-align: text-top;
+/*background-image: url("../img/glyphicons-halflings.png");*/
+background-position: 14px 14px;
+background-repeat: no-repeat;
+}
+
+
+
+.bs-docs-sidenav > li:first-child > a {
+-webkit-border-radius: 6px 6px 0 0;
+-moz-border-radius: 6px 6px 0 0;
+border-radius: 6px 6px 0 0;
+}
+
+#tutorials_info {
+margin-top: 20px;
+}
+
+.alert {
+margin: 0px;
+}
+
+.alert-success {
+color: #468847;
+background-color: #dff0d8;
+border-color: #d6e9c6;
+}
+
+.alert, .alert h4 {
+color: #c09853;
+}
+
+.alert {
+padding: 8px 14px 8px 20px;
+margin-bottom: 20px;
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+background-color: #dff0d8;
+color: #468847;
+border: 1px solid #d6e9c6;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+font-size:13px;
+line-height:20px;
+}
+
+section {
+padding-top: 20px;
+display: block;
+}
+
+.page-header {
+padding-bottom: 9px;
+margin: 20px 0 10px;
+border-bottom: 1px solid #eee;
+}
+
+.text-info {
+color: #1E8282; 
+font-weight:bold;
+font-family: "微軟正黑體";
+font-size:20px;
+}
+
+.text-info2 {
+color: #1E8282; 
+font-weight:bold;
+/*font-family: "微軟正黑體";*/
+font-size:13px;
+}
+
+.lead {
+margin-bottom: 20px;
+font-size: 15px;
+font-weight: 200;
+line-height: 20px;
+}
+
+.text-success {
+color: #468847;
+font-size:15px;
+line-height:20px;
+}
+
+.text-error {
+color: #b94a48;
+font-size:15px;
+}
+
+blockquote {
+padding: 20px;
+margin: 0 0 20px;
+border-left: 3px solid #d9534f;
+font-size:13px;
+line-height:23px;
+background:#fdf7f7;
+
+}
+
+#browser_list_table {
+width: 100%;
+overflow: auto;
+display: block;
+}
+
+table {
+max-width: 100%;
+background-color: transparent;
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+thead {
+display: table-header-group;
+vertical-align: middle;
+border-color: inherit;
+}
+
+thead {
+display: table-header-group;
+vertical-align: middle;
+border-color: inherit;
+}
+
+#browser_list_table th, #browser_list_table td {
+border: 1px solid #ddd;
+padding: 6px 13px;
+}
+
+#browser_list_table td {
+border: 1px solid #ddd;
+padding: 6px 13px;
+}
+
+code {
+padding: 2px 4px;
+color: #d14;
+white-space: nowrap;
+background-color: #f7f7f9;
+border: 1px solid #e1e1e8;
+font-size: 12px;
+font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+}
+
+/*-----  威力 -----*/
+
+/*========tutorials========*/
+.tutorials_div{
+    display: inline-block;
+    padding: 10px 30px 30px 30px;
+    margin: 15px 0px 15px 0px;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.bs-docs-sidenav.affix {
+            top: 25px;
+            width:240px;
+}
+.bs-docs-sidenav > li > a:hover {
+    background-color: #f5f5f5;
+}
+.bs-docs-sidenav > li:first-child > a {
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav > li:last-child > a {
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+}
+.bs-docs-sidenav > li > a {
+    display: block;
+    width: 190px \9;
+    margin: 0 0 -1px;
+    padding: 12px 14px;
+    border: 1px solid #e5e5e5;
+    font-family: "Helvetica Neue", "Hiragino Sans GB", "Hiragino Kaku Gothic Pro", "Heiti TC", "敺株�甇��擃�", "Microsoft JhengHei", "Arial", sans-serif;
+    font-size: 20px;
+}
+.nav-list
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.bs-docs-sidenav .icon-chevron-right {
+    float: right;
+    margin-top: 2px;
+    margin-right: -6px;
+    opacity: .25;
+}
+.bs-docs-sidenav a:hover .icon-chevron-right 
+{
+    opacity: .5;
+}
+.bs-docs-sidenav .active .icon-chevron-right, .bs-docs-sidenav .active a:hover /*.icon-chevron-right
+{
+    /background-image: url(/static/img/glyphicons-halflings-white.png);
+    opacity: 1;
+}*/
+
+section {
+    padding-top: 30px;
+    display: block;
+}
+#tutorials_info
+{
+    margin-top: 20px;
+}
+#browser_list_table
+{
+    width: 100%;
+    overflow: auto;
+    display: block;
+}
+#browser_list_table th, #browser_list_table td
+{
+    border: 1px solid #ddd;
+    padding: 6px 13px;
+}
+
+
+#myScrollspy li a:hover   {
+    text-decoration: none;
+    background-color: #eee;
+	color: #666;
+}
+
+#myScrollspy li a:hover  a {
+    text-decoration: none;
+    background-color: #11B0B3;
+	color: #666;
+}
+
+#myScrollspy li a:focus  {
+    text-decoration: none;
+    background-color: #eee;
+	color: #666;
+}
+#myScrollspy li a:active  {
+color: #FFF;
+background-color: #11B0B3;
+}
+
+
+
